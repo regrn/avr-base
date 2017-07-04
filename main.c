@@ -3,7 +3,8 @@
 
 int main(void)
 {
-
+	DDRB |= (1<<PB3);
+	PORTB |= (1<<PB3);
 
 	while(1)
 	{
