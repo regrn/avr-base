@@ -3,8 +3,8 @@
 
 int main(void)
 {
-	DDRB |= (1<<PB3);
-	PORTB |= (1<<PB3);
+	DDRB |= (1<<PB3);	//set pin 3 on Port B as output
+	PORTB |= (1<<PB3);  //set pin 3 on Port B on "high"
 
 	while(1)
 	{
